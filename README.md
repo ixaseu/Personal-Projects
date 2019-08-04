@@ -1,2 +1,2 @@
 # Personal-Projects
-个人项目
+js个人项目
