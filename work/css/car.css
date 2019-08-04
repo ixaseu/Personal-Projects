@@ -1,0 +1,89 @@
+.swiper-container {
+    width: 400px;
+    height: 30px;
+    margin:0;
+}
+.conTit{
+    width:1000px;
+    height:50px;
+    border-bottom:1px solid rgb(180, 160, 120);           
+    margin:0 auto;
+}
+.conTit1{ 
+    width:180px;   
+    margin:30px 0 30px 0;
+    color:#000;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+}
+#list{
+    width:800px;
+    text-align: center;
+    border-spacing: 0;
+    table-layout: fixed;
+    margin:100px auto;
+    border:1px solid rgb(180, 160, 120);
+}
+#list>tbody>tr{               
+    height:87px;
+}
+#list tr td{
+    border-bottom:1px solid rgb(230, 218, 197);
+}
+#list>tbody>td{
+    margin-left:30px;
+    width:20%;
+}
+#list>tbody>tr>td>button{
+    height:22px;
+    width:30px;
+    font-size: 18px;
+    outline:none;
+    cursor: pointer;
+}
+#list>tbody>tr>td>button,#list>tbody>tr>td>input{
+    border:1px solid rgb(180, 160, 120);
+    float:left;
+}
+.reduce{
+    margin-left:30px;
+}
+.num{
+    text-align: center;
+}
+#list>tbody>tr>td>input{
+    width:40px;
+    height:20px;
+}
+.smallPic{
+    width:87px;
+    height:87px;
+    margin-left:35px;
+}
+.del a{
+    color:rgb(0, 0, 0,0.5);
+}
+.del a:hover{
+    color:rgb(180, 160, 120);
+    text-decoration: underline;
+}
+/* 回到顶部 */
+.goTop{
+    width:60px;
+    height:60px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 60px;
+    color:orange;
+    background: #000;
+    position: fixed;
+    right:10px;
+    bottom:50px;
+    cursor: pointer;           
+}
+.goTop:hover{
+    border-radius: 30px 30px 0 0;
+    transition: 0.3s;            
+}

@@ -1,0 +1,426 @@
+
+/* 商品详情 */
+.conTit{
+    width:1000px;
+    height:50px;
+    margin:0 auto;         
+}
+.conTit1{       
+    margin:10px 0;    
+}
+.conTit1 h3{    
+    color:#000;
+    font-size: 12px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+}
+
+.conTit4{
+    width:998px;
+    height:49px;
+    margin:10px auto 0;
+    border:1px solid #ccc;
+    border-bottom:none;
+    background:rgb(245, 245, 245);         
+}
+.conTit5{       
+    padding:5px;    
+}
+.conTit5 h3{    
+    color:#000;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+}
+
+/* 滚动字幕 */
+.swiper-container {
+    width: 400px;
+    height: 30px;
+    margin:0;
+}
+/* content */
+.content{
+    width:1000px;
+    height:800px;
+    margin:0 auto;
+}
+/* contentLeft */
+.contentLeft{
+    width:400px;
+    height:420px;
+    float: left;
+}
+section{
+    width:400px;
+    height:400px;
+    position:relative;
+    margin-top:40px;
+    border:1px solid #ddd;
+}
+section>img{
+    width:100%;
+    height:100%;
+}
+
+.btnBox{
+    width:400px;
+    height:110px;
+    position:relative;
+    margin:0 0 100px 0;
+    overflow:hidden
+}
+.sImgBox{
+    height:110px;
+    position:absolute;
+}
+.sImgBox li{
+    width:80px;
+    height:80px;
+    margin:5px 0;
+    border:1px solid #ccc;
+    padding:9px;
+    float:left;
+}
+.sImgBox li:hover{
+    border:3px solid rgb(180, 160, 120);
+    padding:7px;
+}
+.sImgBox li img{
+    width:100%;
+    height:100%;
+}
+
+.glass{
+    width:398px;
+    height:398px;
+    background:rgb(255, 249, 238); 
+    position:absolute;
+    border:1px solid #ddd;
+    right:-410px;
+    top:0;
+    overflow:hidden;
+    display:none
+}
+.glass img{
+    width:800px;
+    height:800px ;   /*根据遮罩和显示区比例*/
+    position:absolute
+}
+
+.btnBox span{
+    display:block;
+    width:22px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    font-size:30px;
+    border-radius: 20px;
+    color:#000;
+    font-weight:900;
+    position: absolute;
+    top:30px;
+    cursor: pointer;
+}
+.btnBox span:nth-of-type(1){
+    left:0;
+}
+.btnBox span:nth-of-type(2){
+    right:0;
+}
+.shade{
+    width:200px;
+    height:200px;
+    background:rgba(221, 192, 27, 0.2);
+    position: absolute;
+    top:0;
+    cursor: move;
+    display:none;
+}
+/* contentRight */
+.contentRight{
+    width:550px;
+    height:420px;
+    margin-top:40px;
+    float: right;
+}
+.contentRight dl{
+    width:550px;
+    height:55px;
+}
+.contentRight dl h4{
+    width:300px;
+    height:25px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.contentRight dl span{
+    display: block;
+    width:60px;
+    height:25px;
+    float: right;
+    color:rgba(227, 104, 68);
+    font-size: 20px;
+    line-height: 25px;
+}
+.contentRight dl i{
+    display: block;
+    width:460px;
+    height:30px;
+    font-size: 13px;
+    line-height: 30px;
+    color:rgba(0, 0, 0, 0.4);
+    float: left;
+}
+.contentRight dl a{
+    display: block;
+    width:55px;
+    height:30px;
+    color:rgba(0, 0, 0, 0.8);
+    font-size: 13px;
+    line-height: 30px;
+    float: right;
+}
+.conR1{
+    width:544px;
+    height:19px;
+    background: rgba(227, 104, 68);
+    color:#fff;
+    font-size: 14px;
+    line-height: 19px;
+    padding:3px;
+}
+.conR{
+    font-size: 13px; 
+    color:rgba(0, 0, 0, 0.6);   
+}
+.conR2{
+    width:550px;  
+    background: rgb(245, 243, 239);   
+    line-height: 40px;
+}
+.conR dl{
+    height:40px;
+}
+.conR dt{
+    width:60px;
+    height:40px;
+    float: left;
+}
+.conR2 dl:nth-of-type(1)>dd{
+    color:rgba(215, 40, 45);
+    font-size: 24px;
+    font-weight: bold;
+}
+.conR2 dl:nth-of-type(2) dd{
+    color:rgba(215, 40, 45)
+}
+.conR2 dl:nth-of-type(2) i{
+    display: block;
+    width:90px;
+    height:40px;
+    line-height:40px;
+    color:rgba(0, 0, 0, 0.8);
+    float: left;
+}
+.conR dd{
+    width:490px;
+    height:40px;
+    float: left; 
+}
+.conR2 dl ul li{
+    list-style: disc;
+    float: left;
+    margin:0 10px;
+}
+.conR3{
+    width:550px;
+    height:80px;
+    margin:20px 0;
+}
+.conR3 dt{
+    height:80px;    
+}
+.conR3 dd{
+    width:130px;
+    float: left;
+}
+.conR4{
+    width:550px;
+    height:200px;
+}
+.conR4 dt{
+    height:200px;    
+}
+.conR4 dd{
+    width:300px;
+}
+.conR5{
+    width:550px;
+    height:50px;
+}
+.conR5 dt{
+    height:40px;    
+}
+.conR5 dd{
+    width:300px;   
+}
+.conR5 dd span{
+    display: block;
+    width:40px;
+    height:30px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+    border:1px solid #ddd;
+    float: left;
+    cursor: pointer;
+}
+.conR5 dd input{
+    width:60px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    border:1px  solid #ddd;
+    float: left;
+}
+.buy{
+    width:148px;
+    height:48px;
+    background: rgb(238, 235, 235);
+    text-align: center;
+    line-height: 50px;
+    color:rgb(180, 160, 120);
+    border:1px solid rgb(180, 160, 120);
+    float: left;
+    cursor: pointer;
+    margin:20px 0 0 20px;
+}
+.buy:hover{
+    background: #fff;
+}
+.addCar{
+    width:150px;
+    height:50px;
+    background: rgb(180, 160, 120);
+    text-align: center;
+    line-height: 50px;
+    color:#fff;
+    float: left;
+    cursor: pointer;
+    margin:20px 20px 0 20px;
+}
+.addCar>span{
+    display: block;
+    width:20px;
+    height:20px;
+    float: left;
+    background: url(../images/gwc2.png) no-repeat ;
+    background-size: 100%;
+    margin:15px 0 15px 10px; 
+}
+.addCar:hover{
+    background: rgb(194, 172, 129);
+}
+.sC{
+    width:52px;
+    height:52px;
+    background: url(../images/sc.png) no-repeat;
+    background-size:100%;
+    float: left; 
+    margin:20px 0;
+    cursor: pointer;
+}
+/* 回到顶部 */
+.goTop{
+    width:60px;
+    height:60px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 60px;
+    color:orange;
+    background: #000;
+    position: fixed;
+    right:10px;
+    bottom:50px;
+    cursor: pointer;           
+}
+.goTop:hover{
+    border-radius: 30px 30px 0 0;
+    transition: 0.3s;            
+}
+/* swiper */
+#swiper1 {
+    width: 400px;
+    height: 30px;
+    margin:0;
+}
+#swiper2 {
+    width: 998px;
+    height: 399px;
+    margin:0 auto 10px;
+    border:1px solid #ccc;
+    border-top:none;
+    z-index: -1;    
+}
+#swiper2 img{              
+    width:300px;
+    height:300px;
+    background:rgb(238, 234, 234);
+    transition: 1s;
+}
+#swiper2 img:hover{
+    transform:scale(1.3);
+}
+#swiper2  .swiper-slide i{
+    display: block;
+    margin:0 auto;
+    width:300px;
+    height:300px;
+    overflow: hidden; 
+}
+#swiper2  .swiper-slide{   
+    position: relative;
+}
+#swiper2  .swiper-slide div{
+    width:280px;
+    height:130px;
+    padding:10px;
+    text-align: center;
+    background: rgb(255, 254, 254);
+    position: absolute;
+    top:250px;
+    left:9px;
+}
+#swiper2  .swiper-slide div p{
+    width:270px;
+    height:30px;
+    margin:15px 0 0 5px;
+}
+
+#swiper2  .swiper-slide div p:nth-of-type(1){
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 35px;
+}
+#swiper2  .swiper-slide div p:nth-of-type(2) i{
+    display: inline-block;
+    width:50px;
+    height:30px;
+    text-align: center;
+    font-size:16px;
+    line-height: 30px;
+    color:red;
+}
+#swiper2  .swiper-slide div p:nth-of-type(2) span{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    background: url(../images/gwc.png) no-repeat;
+    background-size: 100%;  
+    margin:5px ;
+}
